@@ -31,7 +31,7 @@ import Header from "../component/Layout/Header";
 
 const HomePage = () => {
 
-  
+
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -221,6 +221,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="sec_section sec_one">
+      <div className="mb-5">
         <Container>
           <SectionTitleh2
             className="afterBorder pb-2 pb-xl-5 mb-5 mb-xl-0 px-2 px-md-0"
@@ -228,6 +229,7 @@ const HomePage = () => {
             text="A democratic platform for indie filmmakers, publishers, videographers, artists and photographers who lack the resources and relationships to secure adequate funding but have great stories to tell in a uniquely personal way; a home for passionate storytellers from all over the world who believe that true creativity must reflect a global perspective in order to be valid in today’s reality."
           />
         </Container>
+      </div>
         <img src={img1} alt="Geochic-pic" className="mt-xl-5 sec_section_img" />
       </section>
       <section className="image_content_section">

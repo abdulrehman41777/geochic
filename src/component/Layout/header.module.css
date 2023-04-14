@@ -1,0 +1,14 @@
+
+
+
+
+@media only screen and (max-width: 450px) {
+    ._logogapping{
+        /* background-color: blue; */
+        margin-right: 120px;
+    }
+    ._logogapping img{
+        /* height: 40px; */
+        /* margin-right: 120px; */
+    }  
+  }

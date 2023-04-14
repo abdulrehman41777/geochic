@@ -19,7 +19,6 @@ import Header from "../component/Layout/Header";
 const MagazinePage = () => {
     return (
         <>
-        
             <Header />
             <div className="magazine_page">
                 <div className="herobanner">
@@ -31,7 +30,6 @@ const MagazinePage = () => {
                 </div>
                 <section className="section1">
                     <Container>
-
                         <h3 className="text-center mb-0">JOIN THE PRINT<br /> RENAISSANCE</h3>
                         <Row className="section1_row">
                             <Col lg={6}>

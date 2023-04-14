@@ -4,6 +4,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import logo from "./../../assets/images/geochic-logo.png";
 import pdf from "./../../assets/GEOCHIC_litepaper_V8.pdf";
+import styles from './header.module.css'
 
 import Headroom from "react-headroom";
 
@@ -103,7 +104,9 @@ const Header = () => {
             <Container fluid>
               {/* <Navbar.Brand as={Link} to="/" eventKey="0"> */}
               <Navbar.Brand as={Link} to="/">
+                <div className={styles._logogapping}>
                 <img src={logo} alt="Logo" />
+                </div>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar" />
               <Navbar.Collapse id="basic-navbar">
